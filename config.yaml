@@ -1,0 +1,71 @@
+baseURL: "https://www.eztechconsultants.com/"
+theme: "hugo-goa"
+languageCode: "en-us"
+
+title: "EZ Tech Consultants"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Up Business"
+  description: "We are a team of experienced tech consultants who help businesses improve their technology infrastructure, streamline their processes, and enhance their customer experiences."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+
+  location:
+    - "USA"
+
+  contact:
+    - "info@eztechconsultants.com"
+
+  copyright: "© 2023 EZ Tech Consultants All Rights Reserved"
+
+  postProcess: false
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "Services"
+      url: "/#"
+      weight: 2
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+  buttons:
+    - name: "Connect With Us!"
+      url: "/#"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "Services"
+      url: "/#"
+      weight: 2
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"
